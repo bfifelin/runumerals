@@ -42,6 +42,7 @@ Feci quod potui, faciant meliora potentes :-)
 
 ```
 
+    require 'ru_numerals'
     RuNumerals::ru_numeral(154,'д')                      #=> "ста пятидесяти четырём"
     RuNumerals::ru_numeral(101,'','с',1)                 #=> "ноль тысяч сто одно"
     RuNumerals::ru_numeral(1,'',RuNumerals::RUBGRAM,-1)  #=> "рубль"
